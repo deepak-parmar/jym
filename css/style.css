@@ -1,0 +1,45 @@
+:root {
+  --primary-color: maroon;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--primary-color);
+  background: url(../images/banner.jpg) no-repeat ;
+  background-size: cover;
+}
+
+h1 {
+  text-shadow: 3px 3px #090909;
+  /* background-color: #000000AE; */
+}
+
+/* #header {
+  background-color: #000000CF;
+} */
+
+/* BOOTSTRAP OVERRIDES */
+
+input {
+  background-color: #000000BF !important;
+  border-color: #FFFFFF5F !important;
+  color: white !important;
+}
+
+input::placeholder {
+  color: white !important;
+  opacity: .8 !important;
+}
+
+.navbar-brand {
+  text-shadow: 1px 0px #fff;
+}
+
+.nav-link {
+  border-bottom-color: transparent !important;
+}
+
+.nav-link:hover {
+  color: darkgray !important;
+  border-bottom-color: #A9A9A9 !important;
+}
