@@ -1,22 +1,12 @@
-:root {
-  --primary-color: maroon;
-}
-
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: var(--primary-color);
-  background: url(../images/banner.jpg) no-repeat ;
+  background-color: #000;
+  background: url(../images/banner.jpg) no-repeat;
   background-size: cover;
 }
 
-h1 {
-  text-shadow: 3px 3px #090909;
-  /* background-color: #000000AE; */
-}
+h1 {text-shadow: 3px 3px #090909;}
 
-/* #header {
-  background-color: #000000CF;
-} */
 
 /* BOOTSTRAP OVERRIDES */
 
